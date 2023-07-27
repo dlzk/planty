@@ -17,5 +17,24 @@ Template: astra
 .mon-form .first-button input {
 	width: fit-content;
 	border-radius: 5px;
-	background-color:#E0B9B4;
+	background-color: #E0B9B4;
+}
+#menu-item-35:hover {
+	font-weight: 700;
+}
+#menu-item-34:hover {
+	background-color: #C02E44;
+}
+#menu-item-34 {
+	background-color: #DC9F96;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left: 20px;
+}
+#menu-item-34 a {
+	color: #FFFFFF;
+	font-weight: 700;
+}
+.ast-container, .ast-container-fluid {
+	padding-right: 0px;
 }

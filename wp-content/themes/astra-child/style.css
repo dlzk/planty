@@ -9,3 +9,13 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: astra-child
 Template: astra
 */
+.mon-form .first-button p {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.mon-form .first-button input {
+	width: fit-content;
+	border-radius: 5px;
+	background-color:#E0B9B4;
+}

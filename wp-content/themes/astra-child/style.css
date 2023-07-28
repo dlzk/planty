@@ -9,12 +9,12 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: astra-child
 Template: astra
 */
-.mon-form .first-button p {
+.mon-form .first-button p, .form-colonne+p {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
 }
-.mon-form .first-button input {
+.mon-form .first-button input, .form-commande .bouton-commande {
 	width: fit-content;
 	border-radius: 5px;
 	background-color: #E0B9B4;
@@ -22,7 +22,7 @@ Template: astra
 #menu-item-35:hover {
 	font-weight: 700;
 }
-#menu-item-34:hover {
+#menu-item-34:hover, .form-commande .bouton-commande:hover, .form-commande .bouton-commande:active {
 	background-color: #C02E44;
 }
 #menu-item-34 {
@@ -31,10 +31,21 @@ Template: astra
 	padding-right: 20px;
 	margin-left: 20px;
 }
-#menu-item-34 a {
+#menu-item-34 a, .form-commande .couleur-titre {
 	color: #FFFFFF;
 	font-weight: 700;
 }
 .ast-container, .ast-container-fluid {
 	padding-right: 0px;
+}
+.form-colonne {
+	display: flex;
+}
+.form-information {
+	border-right: 0.5px solid;
+	padding-right: 50px;
+}
+.form-livraison {
+	border-left: 0.5px solid;
+	padding-left: 50px;
 }

@@ -49,3 +49,47 @@ Template: astra
 	border-left: 0.5px solid;
 	padding-left: 50px;
 }
+.commande-separateur {
+
+}
+.selecteur {
+	font-family: Inter;
+	display: flex;
+	justify-content: start;
+	border-radius: 5px;
+	width: 82px;
+	height: 56px;
+	background-color: #FFFFFF;
+}
+.selecteur p {
+	margin: 0px;
+}
+.select-operateur {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 31px;
+	height: 56px;
+}
+.select-zero {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 51px;
+	height: 56px;
+}
+.select-plus {
+	border-radius: 0 5px 0 0;
+	border-bottom: 0.5px solid #FFFFFF;
+}
+.select-moins {
+	border-radius: 0 0 5px 0;
+	border-top: 0.5px solid #FFFFFF;
+}
+.fond-rose {
+	display: flex;
+	justify-content: center;
+	background-color: #DC9F96;
+	color: #FFFFFF;
+	height: 28px;
+}

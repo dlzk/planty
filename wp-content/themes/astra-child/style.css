@@ -49,9 +49,6 @@ Template: astra
 	border-left: 0.5px solid;
 	padding-left: 50px;
 }
-.commande-separateur {
-
-}
 .selecteur {
 	font-family: Inter;
 	display: flex;
@@ -92,4 +89,13 @@ Template: astra
 	background-color: #DC9F96;
 	color: #FFFFFF;
 	height: 28px;
+}
+
+@media (max-width: 800.01px) {
+    .form-information {
+		padding-right: 10px;
+	}
+	.form-livraison {
+		padding-left: 10px;
+	}
 }

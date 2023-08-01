@@ -22,7 +22,7 @@ Template: astra
 #menu-item-35:hover {
 	font-weight: 700;
 }
-#menu-item-34:hover, .form-commande .bouton-commande:hover, .form-commande .bouton-commande:active {
+#menu-item-34:hover, .form-commande .bouton-commande:hover, .mon-form .first-button input:hover {
 	background-color: #C02E44;
 }
 #menu-item-34 {

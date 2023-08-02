@@ -37,7 +37,7 @@ function prefix_add_menu_item ( $items, $args ) {
 				$items = substr($items, $item_pos);
 			}
 			$items_array[] = $items;
-			array_splice($items_array, 1, 0, '<li class="menu-item"><a class="menu-link" href="http://localhost:81/planty/wp-admin/index.php">Admin</a></li>'); // insert custom item after first item one
+			array_splice($items_array, 1, 0, '<li class="menu-item"><a class="menu-link admin-gras" href="'. get_admin_url() .'">Admin</a></li>'); // insert custom item after first item one
 	
 			$items = implode('', $items_array);
 		}
@@ -45,4 +45,3 @@ function prefix_add_menu_item ( $items, $args ) {
 		   
 	return $items;
 }
-//36

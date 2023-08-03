@@ -103,10 +103,10 @@ input[type=number]
 	height: 56px;
 }
 
-@media (max-width: 768.01px) {
+@media (max-width: 842.02px) {
     .select-operateur {
 		position: absolute;
-		right: 4%;
+		right: 3%;
 		pointer-events: none;
 	}
 }
